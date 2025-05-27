@@ -1,0 +1,27 @@
+# requirements.txt
+
+# Core Libraries
+numpy
+pandas
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+plotly
+pandas-profiling
+
+# Modeling
+xgboost
+lightgbm
+
+# Model Interpretation (Optional)
+shap
+lime
+
+# App Interface
+gradio
+
+# Jupyter Notebook Support
+ipykernel
+jupyter
