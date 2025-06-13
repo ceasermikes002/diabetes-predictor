@@ -10,4 +10,4 @@ from app.interface import iface
 
 if __name__ == '__main__':
     print("Python executable:", sys.executable)
-    iface.launch(share=True)
+    iface.launch(server_name="0.0.0.0", server_port=8080)
