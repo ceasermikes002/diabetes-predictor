@@ -68,11 +68,11 @@ iface = gradio.Interface(
         gradio.Number(label='Age', minimum=0, step=1, value=30),
     ],
     outputs=gradio.Textbox(label='Prediction & Feature Contribution'),
-    title='Diabetes Predictor',
+    title='GlucoSight',
     description='Enter patient data to predict diabetes and see feature contributions. All values should be non-negative.',
     article="""
     <div style="text-align: center; max-width: 650px; margin: 0 auto;">
-        <h3>About this Predictor</h3>
+        <h3>About GlucoSight</h3>
         <p>This tool uses machine learning to predict the likelihood of diabetes based on several health metrics.</p>
         <p>The model was trained on the Pima Indians Diabetes Database and uses a Random Forest classifier.</p>
         <p>SHAP values show how each feature contributes to the prediction - positive values push toward a diabetes diagnosis, while negative values push away from it.</p>

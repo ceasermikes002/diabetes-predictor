@@ -1,8 +1,8 @@
-# Diabetes Predictor
+# GlucoSight
 
 ## Project Overview
 
-The Diabetes Predictor is a machine learning application that predicts the likelihood of diabetes based on several health metrics. This project implements a Random Forest classifier trained on the Pima Indians Diabetes Database to provide accurate predictions and explanations of the factors contributing to those predictions.
+GlucoSight is a machine learning application that predicts the likelihood of diabetes based on several health metrics. This project implements a Random Forest classifier trained on the Pima Indians Diabetes Database to provide accurate predictions and explanations of the factors contributing to those predictions.
 
 ## Table of Contents
 
@@ -29,7 +29,7 @@ The Diabetes Predictor is a machine learning application that predicts the likel
 ## Project Structure
 
 ```
-diabetes-predictor/
+gluco-sight/
 ├── app/
 │   ├── __init__.py
 │   └── interface.py       # Gradio interface and prediction logic
@@ -55,22 +55,22 @@ diabetes-predictor/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/diabetes-predictor.git
-   cd diabetes-predictor
+   git clone https://github.com/yourusername/gluco-sight.git
+   cd gluco-sight
    ```
 
 2. **Create a virtual environment** (recommended):
    ```bash
    # Using conda
-   conda create -n diabetes-env python=3.8
-   conda activate diabetes-env
+   conda create -n gluco-env python=3.8
+   conda activate gluco-env
    
    # Or using venv
-   python -m venv diabetes-env
+   python -m venv gluco-env
    # On Windows
-   diabetes-env\Scripts\activate
+   gluco-env\Scripts\activate
    # On macOS/Linux
-   source diabetes-env/bin/activate
+   source gluco-env/bin/activate
    ```
 
 3. **Install dependencies**:
